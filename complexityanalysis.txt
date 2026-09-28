@@ -1,0 +1,22 @@
+Complexity Analysis
+
+For the postfix expression with n tokens:
+
+| Operation                  | Time Complexity | Space Complexity |
+| -------------------------- | --------------: | ---------------: |
+| Construct Expression Tree  |        O(n)     |         O(n)     |
+| Postfix Evaluation         |        O(n)     |         O(n)     |
+| Expression Tree Evaluation |        O(n)     |         O(h)     |
+| Inorder Traversal          |        O(n)     |         O(h)     |
+
+Where:
+
+* n = number of tokens in the expression
+* h = height of the expression tree
+
+Overall Complexity
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+For this particular expression, n = 9, so the operations are performed in linear time.

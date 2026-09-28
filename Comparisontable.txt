@@ -1,0 +1,14 @@
+Comparison Table
+
+| Feature                          | Stack-Based Postfix Evaluation  | Expression Tree Evaluation           |
+| -------------------------------- | ------------------------------- | ------------------------------------ |
+| **Data structure used**          | Stack                           | Binary tree                          |
+| **Input**                        | Postfix expression              | Expression tree                      |
+| **Time complexity**              | O(n)                            | O(n)                                 |
+| **Space complexity**             | O(n)                            | O(n)                                 |
+| **Processing method**            | Scans tokens from left to right | Traverses the tree                   |
+| **Ease of implementation**       | Simple                          | Relatively complex                   |
+| **Expression representation**    | Does not preserve structure     | Clearly preserves structure          |
+| **Can generate other notations** | Not directly                    | Yes — infix, prefix, postfix         |
+| **Best suited for**              | Direct calculation              | Expression analysis and manipulation |
+| **Result for given input**       | **11**                          | **11**                               |

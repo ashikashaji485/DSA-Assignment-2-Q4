@@ -1,0 +1,7 @@
+Output Data:
+
+Expression Tree constructed successfully.
+Infix expression: (8+(3*2))-(6/2)
+Postfix evaluation result: 11
+
+Final output:11
